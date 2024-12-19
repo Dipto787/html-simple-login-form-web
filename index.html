@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="max-w-7xl mx-auto">
+    
+    <!-- navbar -->
+    <nav>
+        <div class="navbar bg-[#03c300]  text-neutral-content">
+            <button class="btn btn-ghost text-black rounded-full bg-[#deff45] text-xl">Consument</button>
+            <h3 class="text-2xl text-black ml-8">Zakelijk</h3>
+        </div>
+
+ 
+        <div class="navbar bg-base-100">
+            <div class="flex-1">
+                <a class="btn text-[#03c300] btn-ghost font-bold text-4xl">kpn</a>
+            </div>
+            <div class="flex-none">
+                <ul class="menu menu-horizontal px-1">
+                  <div class="  flex">
+                    <li><a><i class="fa-regular fa-circle-user    text-xl md:text-3xl"></i></a></li>
+                    <li><a><i class="fa-solid fa-magnifying-glass text-xl  md:text-3xl"></i></a></li>
+                    <li><a><i class="fa-solid fa-cart-shopping text-xl  md:text-3xl"></i></a></li>
+                  </div>
+                    <button class="btn text-2xl flex items-center rounded-full" > <i class="fa-solid fa-bars"></i> Menu</button>  
+ 
+                    </div> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- banner from -->
+     <div>
+        <div class="bg-[#01c300] relative h-[500px]   p-8">
+            <h3 class="text-xl text-black"> Good je weer te zien</h3>
+            <h1 class="md:text-5xl text-4xl text-white font-bold">Log in met KPN ID</h1>
+     
+            <div class=" flex justify-center  mt-4">
+             <div class="bg-white p-2 rounded-full    ">
+                 <button class="btn px-8 bg-[#deff45] md:px-32 font-bold rounded-full ">inloggen</button>
+                 <button class="  md:px-3 lg:px-32">Account maken</button>
+                </div>
+            </div>
+       
+            <!-- login form -->
+            <div class=" right-1 absolute w-full ">
+             <div class="hero-content ">
+               
+               <div class="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl">
+                 <form class="card-body">
+                   <div class="form-control">
+                     <label class="label">
+                       <span class="label-text text-xl font-bold">E-mailadres</span>
+                     </label>
+                     <input type="email"  class="input input-bordered" required />
+                   </div>
+                   <div class="form-control">
+                     <label class="label">
+                         <span class="label-text text-xl font-bold">WatchWoord</span>
+                     </label>
+                     <input type="password"  class="input input-bordered" required /> 
+                   </div>
+                   <div class="form-control mt-6">
+                     <button class="btn bg-[#0066ee] text-white rounded-full">inloggen</button>
+                   </div>
+                   <p class="text-[#0c6bee] text-center">WatchWoord vergeten? <i class="fa-solid fa-arrow-right"></i> </p>
+                 </form>
+               </div>
+             </div>
+           </div>
+         </div>
+     </div>
+
+     <!-- divider -->
+      <div class="mt-24 mb-4">
+        <div class="flex  border-b-2 p-4  border-t-2 justify-between">
+            <h1 class="text-xl font-bold">Over KPN</h1>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </div>
+</body>
+
+</html>
